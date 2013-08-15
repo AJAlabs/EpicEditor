@@ -1,3 +1,4 @@
+#!/usr/bin/env rake
 begin
   require 'bundler/setup'
 rescue LoadError
@@ -11,5 +12,6 @@ if File.exists?(APP_RAKEFILE)
   load 'rails/tasks/engine.rake'
 end
 
-
 Bundler::GemHelper.install_tasks
+
+task :default => :spec
