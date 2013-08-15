@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount Epiceditor::Engine => "/epiceditor"
+  mount EpicEditor::Engine => "/epiceditor"
 end

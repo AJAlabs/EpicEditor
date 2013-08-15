@@ -1,4 +1,4 @@
-module Epiceditor
+module EpicEditor
   module ApplicationHelper
   end
 end

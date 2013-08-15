@@ -1,2 +1,2 @@
-Epiceditor::Engine.routes.draw do
+EpicEditor::Engine.routes.draw do
 end

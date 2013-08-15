@@ -1,5 +1,5 @@
 require 'epiceditor/engine'
 require 'epiceditor/version'
 
-module Epiceditor
+module EpicEditor
 end

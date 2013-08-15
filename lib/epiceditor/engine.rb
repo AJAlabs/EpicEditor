@@ -1,7 +1,7 @@
-module Epiceditor
+module EpicEditor
   class Engine < ::Rails::Engine
     
-    isolate_namespace Epiceditor
+    isolate_namespace EpicEditor
     engine_name 'epiceditor'
   end
 end

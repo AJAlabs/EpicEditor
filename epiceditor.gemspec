@@ -7,7 +7,7 @@ require File.expand_path('../lib/epiceditor/version', __FILE__)
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "epiceditor"
-  s.version     = Epiceditor::Version::STRING
+  s.version     = EpicEditor::Version::STRING
   s.authors     = ["AJ Acevedo"]
   s.email       = ["aj@ajalabs.com"]
   s.homepage    = "https://github.com/AJAlabs/EpicEditor"
