@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = ["aj@ajalabs.com"]
   s.homepage    = "https://github.com/AJAlabs/EpicEditor"
   s.summary     = "EpicEditor for Rails - A JavaScript Markdown Editor for Ruby on Rails"
-  s.description = "EpicEditor for Rails - Is a Ruby on Rails engine which adds a JavaScript Markdown Editor to a Rails 4 with split fullscreen editing, live previewing, automatic draft saving, offline support, and more."
+  s.description = "EpicEditor for Rails - Is a Ruby on Rails engine which adds a JavaScript Markdown Editor to Rails 4 with split fullscreen editing, live previewing, automatic draft saving, offline support, and more."
   s.license     = "MIT"
 
   s.files = Dir["{app,bin,config,db,lib}/**/*"] + ["LICENSE.md", "Rakefile", "README.md"]

@@ -40,7 +40,7 @@ EpicEditor uses Semantic Versioning (ie: 0.2.2). EpicEditor for Rails version nu
 
 ## Troubleshooting
 
-- Verify the `epiceditor` assets are within your applications asset pipeline search path using `rails console`
+- Verify the `epiceditor/vendor/assets` are within your application's asset pipeline search path using `rails console`
 
 ```ruby
 Rails.application.config.assets.paths.each { |assets| puts assets }
