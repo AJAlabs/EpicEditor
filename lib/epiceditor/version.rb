@@ -4,8 +4,8 @@ module EpicEditor
     MINOR = 2
     TINY  = 2
     PATCH = 1
-    BUILD = 'beta'
-    DATE = '2013-08-15'
+    BUILD = nil
+    DATE = '2013-08-20'
 
     # EpicEditor::Version::STRING
     STRING = [MAJOR, MINOR, TINY, PATCH, BUILD].compact.join('.')

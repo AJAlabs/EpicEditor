@@ -1,0 +1,10 @@
+/*
+ * This is a manifest file for EpicEditor assets
+ *
+ *= require epiceditor/themes/base/epiceditor
+ *= require epiceditor/themes/editor/epic-dark
+ *= require epiceditor/themes/editor/epic-light
+ *= require epiceditor/themes/preview/bartik
+ *= require epiceditor/themes/preview/github
+ *= require epiceditor/themes/preview/preview-dark
+ */

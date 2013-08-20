@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.description = "EpicEditor for Rails - Is a Ruby on Rails engine which adds a JavaScript Markdown Editor to Rails 4 with split fullscreen editing, live previewing, automatic draft saving, offline support, and more."
   s.license     = "MIT"
 
-  s.files = Dir["{app,bin,config,db,lib}/**/*"] + ["LICENSE.md", "Rakefile", "README.md"]
+  s.files = Dir["{app,bin,config,lib,vendor}/**/*"] + ["CHANGELOG.md", "LICENSE.md", "Rakefile", "README.md"]
 
   s.add_dependency 'rails', '~> 4.0.0'
 
