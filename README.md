@@ -7,9 +7,6 @@
 EpicEditor *for Rails* - is a Ruby on Rails version of [EpicEditor](http://epiceditor.com) *"An Embeddable JavaScript Markdown Editor"*, ready to drop right into your Rails 4 applications.
 
 
-**NOTE:** EpicEditor *for Rails* version 0.2.2.1 simply adds EpicEditor to the asset pipeline. You can [watch](https://help.github.com/articles/watching-repositories) this repo to be notified when additional features are added. Additional customization is coming soon.
-
-
 ## Installation
 
 Add the following line to your Gemfile:
@@ -35,7 +32,7 @@ In your `application.css`, include the css file:
  */
  ```
 
-If you prefer [SCSS](http://sass-lang.com/docs.html), add this to your application.css.scss file:
+If you prefer [Sass](http://sass-lang.com/docs.html), add this to your application.css.scss file:
 
 ```scss
 @import "epiceditor";
@@ -64,8 +61,8 @@ EpicEditor uses Semantic Versioning (ie: 0.2.2). EpicEditor *for Rails* version 
 - Verify the `javascripts` and `stylesheets` assets appear within your application's asset pipeline search path by running ` y Rails.application.config.assets.paths` using `rails console`. You should see something similar to the following:
 
     ```
-    .../epiceditor-0.2.2.1/vendor/assets/stylesheets
-    .../epiceditor-0.2.2.1/vendor/assets/javascripts
+    .../epiceditor-0.2.2.2/vendor/assets/stylesheets
+    .../epiceditor-0.2.2.2/vendor/assets/javascripts
     ```
 
 ## Support

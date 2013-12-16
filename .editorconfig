@@ -1,6 +1,30 @@
+# EditorConfig helps developers define and maintain consistent coding styles
+# between different editors and IDEs.
+# More information can be found at http://EditorConfig.org
+
+# top-most EditorConfig file
 root = true
 
-; 2 spaces for indentation for all JavaScript files
+charset = utf-8
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Use 2 spaces for indentation
 [*.js]
+indent_style = space
+indent_size = 2
+
+[*.rb]
+indent_style = space
+indent_size = 2
+
+[Rakefile]
+indent_style = space
+indent_size = 2
+
+[Gemfile*]
 indent_style = space
 indent_size = 2
